@@ -99,8 +99,10 @@ The bot has a UI which runs in the terminal, this allows you to run the bot on r
 - Added anti rug system
 - Improvements to mempool scan
 
-### Upcoming updates
-
 #### version 1.1.0
 - Implement minimum liquidity option
 - Add everything related to selling the tokens, sell certain % of tokens, certain amounts of tokens. Sell based on take profit and stop loss
+
+
+#### version 1.2.0
+- Telegram scrapper added (features in telegram)
