@@ -72,7 +72,7 @@ The bot has a UI which runs in the terminal, this allows you to run the bot on r
 
 #### Version 1.0.0
 - Initial release
-- Added TUI (Text user interface), it's like  GUI but you can run your bot in the terminal
+- Added TUI (Text user interface), it's like GUI but you can run your bot in the terminal)
 - Added support for multiple wallets
 - Added automatic trading enable function detection
 - Added automatic bad functions (sell triggering) detection
