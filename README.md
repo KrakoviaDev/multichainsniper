@@ -1,5 +1,5 @@
 # multichainsniper
-Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well.
+Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well. Optimized methods are used in order to make this one of the fastest, if not the fastest sniper on the market!
 
 ## Interested in buying?
 Message me on telegram!
