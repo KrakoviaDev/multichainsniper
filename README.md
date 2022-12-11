@@ -1,7 +1,7 @@
 # multichainsniper
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well.
 
-## Contact
+## Interested in buying?
 Message me on telegram!
 - [Telegram](https://t.me/non_linear_logic)
 
