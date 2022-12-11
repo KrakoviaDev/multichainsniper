@@ -2,7 +2,8 @@
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well.
 
 ## Contact
-- [Telegram](https://t.me/hyperionsniper)
+Message me on telegram!
+- [Telegram](https://t.me/non_linear_logic)
 
 
 ### Supported chains and exchanges
