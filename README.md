@@ -112,3 +112,6 @@ The bot has a UI which runs in the terminal, this allows you to run the bot on r
 #### version 1.3.0
 - Contract buy mode added (anti blacklist)
 - You will have to deploy a contract on each corresponding chain!
+
+#### version 1.3.1 
+- Refactoring/performance improvements
