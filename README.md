@@ -2,7 +2,7 @@
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well. Optimized methods are used in order to make this one of the fastest, if not the fastest sniper on the market!
 
 ## Interested in buying?
-Sales have reopened. Message me on telegram if you are interested!
+Sales have reopened. Message me on telegram if you are interested
 - [Telegram](https://t.me/non_linear_logic)
 
 
