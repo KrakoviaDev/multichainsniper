@@ -3,7 +3,7 @@ Multi chain and multi wallet sniper that works on a variety of decentralized exc
 
 ## Interested in buying?
 Sales have reopened. Message me on telegram if you are interested
-- [Telegram](https://t.me/non_linear_logic)
+- [Telegram](https://t.me/nonlinearlogic)
 
 
 ### Supported chains and exchanges
