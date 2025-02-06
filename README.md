@@ -1,4 +1,95 @@
-# multichainsniper
+
+
+
+# 📖 Introduction
+The **FASTEST** Solana bot on GitHub
+
+<img src="https://files.catbox.moe/uvignr.gif" width="400" alt="image">
+
+
+# ✨ Quickstart
+
+This project has been made for Python 3.11
+
+## 🛠️ Installation
+
+**Install Python 3.11** [Python 3.11.](https://www.python.org/downloads/)
+**IMPORTANT**: When installing Python, tick the box "Add python to path" and "Use admin privileges when installing py.exe".
+
+**Open your terminal/cmd**
+
+💾 **Clone this repository**
+```sh
+git clone https://github.com/KrakoviaDev/solana-raydium-sniper
+```
+
+💾 **Navigate to the repository**
+```sh
+cd solana-raydium-sniper
+```
+💻 **Install/upgrade pip =**
+```sh
+python -m pip install --upgrade pip
+```
+💻 **Install the required libs**
+```sh
+pip install -r requirements.txt
+```
+▶️ **Start**
+```sh
+python main.py
+```
+![image](https://files.catbox.moe/we7imi.png)
+![image](https://files.catbox.moe/l02bx1.png)
+# 🤖 Sniper Bot
+
+### ⚙️ How it works
+The bot continually sends requests to [Solana].<br>
+If the token is available to purchase, the transaction will execute quickly.<br>
+Please note that only tokens with sufficient liquidity and on-chain metadata are listed in Jupiter API: min. 250$ liquidity and buy/sell price impact are below 30%.<br>
+When these criteria are met, it will take a few minutes to automatically add the token.<br>
+
+### 🆕 Add a token to snipe
+- Add as many wallets as necessary
+- Token/Project name
+- Token Address
+- Amount ($) to buy
+- Take Profit ($)
+- Stop Loss ($)
+- Slippage (%)
+
+If token has a launch date:
+- Month
+- Day
+- Hours
+- Minutes
+
+### 🔭 Watch token
+You can watch your trading position by selecting the token.<br>
+
+### ✍🏻 Edit tokens
+You can modify token info as follow:
+- Name
+- Address
+- Selected Wallet
+- Buy Amount
+- Take Profit
+- Stop Loss
+- Slippage
+- Launch date
+- Delete
+
+# Q&A
+### Where are my private keys?
+*Your private keys are stored in `wallets.json`.*
+### Is there any fees when swapping using the bot?
+*There are no additional fees when performing swaps via the CLI; the costs should be the same as using the Jupiter UI.*
+### Does sniper bot remains running if I close it?
+*If you close the terminal, the sniper bot will stop running.* 
+
+
+
+# MY OTHER PROJECT FOR SALE: Multichainsniper
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well. Optimized methods are used in order to make this one of the fastest, if not the fastest sniper on the market
 
 ## Interested in buying?
