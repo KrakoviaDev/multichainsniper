@@ -1,28 +1,50 @@
 
 
 
-# 📖 Introduction
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Quickstart](#quickstart)
+- [Installation](#installation)
+- [Features](#sniper)
+- [Contact](#contact)
+
+
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+# Introduction
 The **FASTEST** Solana bot on GitHub
 
 <img src="https://files.catbox.moe/uvignr.gif" width="400" alt="image">
 
+ 
+# Quickstart
 
-# ✨ Quickstart
+This project has been made for Python.
 
-This project has been made for Python 3.11
+## Installation
 
-## 🛠️ Installation
+**Install [Python](https://www.python.org/downloads/)**
 
-**Install Python 3.11** [Python 3.11.](https://www.python.org/downloads/)
-**IMPORTANT**: When installing Python, tick the box "Add python to path" and "Use admin privileges when installing py.exe".
+**IMPORTANT**: ***When installing Python, click the box "Add python to path" and "Use admin privileges when installing py.exe."***
 
-**Open your terminal/cmd**
+💾 **Open your terminal/cmd**
 
-💾 **Download this repository**
+<img src="https://www.lifewire.com/thmb/lZqO1iWs6LzvSYkXITCbNmTg2J4=/1305x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/windows-11-cmd-start-menu-a8c1d7d009f64856902c83e8e418563b.png" width="400" alt="image">
+
+💾 **Download this repository & unzip**
 
 <img src="https://files.catbox.moe/qextd1.png" width="400" alt="image">
 
-💾 **Navigate to the repository**
+💾 **Navigate to the directory you downloaded the repository to (often times Downloads)**
+```sh
+cd Downloads
+```
 ```sh
 cd solana-raydium-sniper-main
 ```
@@ -43,13 +65,8 @@ python main.py
 ```
 ![image](https://files.catbox.moe/we7imi.png)
 ![image](https://files.catbox.moe/l02bx1.png)
-# 🤖 Sniper Bot
 
-### ⚙️ How it works
-The bot continually sends requests to [Solana].<br>
-If the token is available to purchase, the transaction will execute quickly.<br>
-Please note that only tokens with sufficient liquidity and on-chain metadata are listed in Jupiter API: min. 250$ liquidity and buy/sell price impact are below 30%.<br>
-When these criteria are met, it will take a few minutes to automatically add the token.<br>
+# Sniper
 
 ### 🆕 Add a token to snipe
 - Add as many wallets as necessary
@@ -81,20 +98,11 @@ You can modify token info as follow:
 - Launch date
 - Delete
 
-# Q&A
-### Where are my private keys?
-*Your private keys are stored in `wallets.json`.*
-### Is there any fees when swapping using the bot?
-*There are no additional fees when performing swaps via the CLI; the costs should be the same as using the Jupiter UI.*
-### Does sniper bot remains running if I close it?
-*If you close the terminal, the sniper bot will stop running.* 
-
-
 
 # MY OTHER PROJECT FOR SALE: Multichainsniper
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well. Optimized methods are used in order to make this one of the fastest, if not the fastest sniper on the market
 
-## Interested in buying?
+## Contact
 Sales have reopened. Message me on telegram if you are interested
 - [Telegram](https://t.me/nonlinearlogic)
 
