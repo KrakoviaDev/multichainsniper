@@ -69,4 +69,4 @@ def get_timestamp_formatted(unix_timestamp: int) -> str:
     else:
         months = unix_timestamp // 2629746  # Approximately a month
         days = (unix_timestamp % 2629746) // 86400
-        return f"{months} month{'s' if months > 1 else ''}, {days} day{'s' if days > 1 else ''}" 
+        return f"{months} month{'s' if months > 1 else ''}, {days} day{'s' if days > 1 else ''}"
