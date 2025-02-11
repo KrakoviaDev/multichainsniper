@@ -18,20 +18,22 @@ This project has been made for Python 3.11
 
 **Open your terminal/cmd**
 
-💾 **Clone this repository**
-```sh
-git clone https://github.com/KrakoviaDev/solana-raydium-sniper
-```
+💾 **Download this repository**
+
+<img src="https://files.catbox.moe/qextd1.png" width="400" alt="image">
 
 💾 **Navigate to the repository**
 ```sh
-cd solana-raydium-sniper
+cd solana-raydium-sniper-main
 ```
-💻 **Install/upgrade pip =**
+💻 **Install/upgrade pip**
 ```sh
 python -m pip install --upgrade pip
 ```
 💻 **Install the required libs**
+```sh
+pip install jupiter-python-sdk
+```
 ```sh
 pip install -r requirements.txt
 ```
