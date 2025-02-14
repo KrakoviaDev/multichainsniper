@@ -202,4 +202,4 @@ if __name__ == '__main__':
             fmt = (('%s = %s') % (d['name'], d['format']))
             print fmt % (d['call_back'](d['name']))
         print 'Sleeping 15 seconds'
-        time.sleep(15) 
+        time.sleep(15)
