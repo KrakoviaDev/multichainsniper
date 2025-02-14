@@ -545,4 +545,3 @@ if __name__ == '__main__':
 # listxattr                 32 samples [regs]
 # removexattr               596 samples [regs]
 # inode_permission          492967435 samples [regs]
- 
