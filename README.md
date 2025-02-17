@@ -18,7 +18,7 @@
 
 
 # Introduction
-The **FASTEST** and most profitable Solana bot on GitHub. Profits in excess of 100x achieved with this tool.
+The **FASTEST** and most profitable Solana bot on GitHub. Profits in excess of 100x achieved with this tool and the First Block Exploit.
 
 <img src="https://files.catbox.moe/uvignr.gif" width="400" alt="image">
 
