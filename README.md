@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ```sh
 python main.py
 ```
-![image](https://files.catbox.moe/we7imi.png)
+![image](https://files.catbox.moe/654ggm.png)
 ![image](https://files.catbox.moe/l02bx1.png)
 
 # Sniper
