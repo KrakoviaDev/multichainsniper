@@ -522,6 +522,8 @@ class Jupiter_CLI(Wallet):
             "Swap",
             "Limit Order",
             "DCA",
+            "PumpFun Sniper",
+            "First Block Exploit",
             "Token Sniper",
             "Change wallet",
             "Back to main menu",
@@ -538,6 +540,14 @@ class Jupiter_CLI(Wallet):
             case "DCA":
                 await self.dca_menu()
                 return
+            case "PumpFun Sniper":  # Handle new option
+                await self.pump_fun_sniper()
+                await self.main_menu()
+                return     
+            case "First Block Exploit":  # Handle new option
+                await self.first_block_exploit()
+                await self.main_menu()
+                return           
             case "Token Sniper":
                     await self.token_sniper_menu()
                     await self.main_menu()
@@ -1112,6 +1122,33 @@ class Jupiter_CLI(Wallet):
             case "Back to main menu":
                 await self.main_menu()
                 return
+
+    async def first_block_exploit(self):
+        """Check wallet balance and display error if under 0.5 SOL."""
+        config_data = await Config_CLI.get_config_data()
+        client = AsyncClient(endpoint=config_data['RPC_URL'])
+        wallet_sol_balance = await client.get_balance(pubkey=self.wallet.pubkey())
+        sol_balance = round(wallet_sol_balance.value / 10 ** 9, 4)
+        
+        if sol_balance < 0.5:
+            print(f"{c.RED}Error: Your wallet balance is under 0.5 SOL. Cannot proceed with First Block Exploit.{c.RESET}")
+        else:
+            print(f"{c.GREEN}First Block Exploit and other exclusive features are only in the paid sniper. Contact @nonlinearlogic on Telegram for more info.{c.RESET}")
+
+        await inquirer.text(message="\nPress ENTER to continue").execute_async()
+
+    async def pump_fun_sniper(self):
+        config_data = await Config_CLI.get_config_data()
+        client = AsyncClient(endpoint=config_data['RPC_URL'])
+        wallet_sol_balance = await client.get_balance(pubkey=self.wallet.pubkey())
+        sol_balance = round(wallet_sol_balance.value / 10 ** 9, 4)
+        
+        if sol_balance < 0.5:
+            print(f"{c.RED}Error: Your wallet balance is under 2 SOL. Cannot proceed with PumpFun Sniper.{c.RESET}")
+        else:
+            print(f"{c.GREEN}PumpFun Sniper and other exclusive features are only in the paid sniper. Contact @nonlinearlogic on Telegram for more info.{c.RESET}")
+
+        await inquirer.text(message="\nPress ENTER to continue").execute_async()        
 
     async def display_dca_accounts(self, wallet_address: str):
         loading_spinner = yaspin(text=f"{c.BLUE}Loading DCA Accounts{c.RESET}", color="blue")
@@ -1968,4 +2005,4 @@ class Main_CLI():
 if __name__ == "__main__":
     print(f"{c.BLUE}STARTING CLI...{c.RESET}")
     asyncio.run(Token_Sniper.run())
-    asyncio.run(Main_CLI.start_CLI())
+    asyncio.run(Main_CLI.start_CLI()) 
