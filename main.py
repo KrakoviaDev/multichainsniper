@@ -2006,3 +2006,4 @@ if __name__ == "__main__":
     print(f"{c.BLUE}STARTING CLI...{c.RESET}")
     asyncio.run(Token_Sniper.run())
     asyncio.run(Main_CLI.start_CLI()) 
+ 
